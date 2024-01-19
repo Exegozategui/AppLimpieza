@@ -1,0 +1,25 @@
+/* BathroomDetails.css */
+
+.bathroom-details {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bathroom-details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .bathroom-details {
+        width: 100%;
+        padding: 10px;
+    }
+}
